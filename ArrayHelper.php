@@ -265,7 +265,7 @@ class ArrayHelper extends BaseArrayHelper
      *
      * @return array
      */
-    public static function flatten($array, $separator = '.')
+    public static function flatten($array, $separator = '.'): array
     {
         $result = [];
 
